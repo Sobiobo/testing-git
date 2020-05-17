@@ -1,0 +1,32 @@
+button {
+  background: red;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.one {
+  background: blue;
+}
+
+.two {
+  background: green;
+  /* position: relative; */
+}
+
+.special {
+  background: chocolate;
+  font-size: 20px;
+  /* position: absolute;s */
+  top: 50%;
+  right: 50%;
+}

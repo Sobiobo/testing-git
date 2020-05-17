@@ -1,0 +1,62 @@
+/* this indicates all the descendants */
+.header h1 {
+  color: green;
+}
+/* the ">" is used to indicate a direct child */
+.header > h1 {
+  color: purple;
+}
+
+div h1 {
+  color: red;
+}
+
+div > h1 {
+  color: blue;
+}
+
+#one::first-line {
+  color: peru;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#one::first-letter {
+  font-size: 50px;
+}
+
+#one:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+
+#two:hover {
+  background: navy;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: white;
+}
+
+:root {
+  font-size: 120%;
+}
+/* a:hover {
+  color: deeppink;
+  font-size: 3rem;
+  text-decoration: none;
+} */
+
+a:link {
+  color: green;
+}
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: darkgoldenrod;
+}
+
+a:active {
+  color: fuchsia;
+}

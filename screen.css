@@ -1,0 +1,53 @@
+body {
+  background: yellow;
+}
+
+.banner {
+  background: blue;
+}
+h1 {
+  /* font-size: 50px; */
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background: red;
+  }
+
+  .banner {
+    background: green;
+    border-radius: 10px;
+  }
+  h1 {
+    /* font-size: 50px; */
+    color: wheat;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background: blue;
+  }
+
+  .banner {
+    background: orange;
+    border-radius: 35px;
+  }
+  h1 {
+    /* font-size: 50px; */
+    color: black;
+    text-transform: lowercase;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 7rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+}
